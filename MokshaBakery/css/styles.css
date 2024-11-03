@@ -1,0 +1,118 @@
+body {
+    font-family: 'Baguet Script', cursive; /* Changed font to Baguet Script */
+    margin: 0;
+    padding: 0;
+    background-color: #001f3f; /* Changed background color to navy blue */
+    color: #fff; /* Changed font color to white */
+}
+header {
+    background-color: #8a2be2; /* Changed background color to violet */
+    color: #fff; /* Changed font color */
+    padding: 20px;
+    text-align: center;
+}
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #fff; /* Changed font color of heading */
+}
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
+section {
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+.menu-category {
+    margin: 20px 0;
+}
+.menu-category h3 {
+    font-size: 1.5em;
+    color: #d4a373;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-item ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; /* Align text to the left */
+}
+.menu-item ul li {
+    margin: 5px 0;
+    font-size: 1.5em; /* Increased font size */
+}
+.menu-item .menu-images {
+    display: flex;
+    justify-content: center; /* Center the collage images */
+}
+.menu-item .menu-images img {
+    width: 300px; /* Set a specific width for the images */
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.menu-item .menu-images img:hover {
+    transform: scale(1.1);
+}
+footer {
+    background-color: #8a2be2; /* Changed background color to violet */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.form-group label {
+    width: 100px;
+}
+.form-group input, .form-group textarea {
+    margin-left: 10px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    padding: 10px 20px;
+    background-color: #8a2be2; /* Changed background color to violet */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+form button:hover {
+    background-color: #5d3a99;
+}
+
